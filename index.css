@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+*{
+    font-family: 'Amatic SC', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+header{
+    background-image: url("img/background.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header h1{
+    margin:0;
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+    transition: all 0.3s cubic-bezier(.78,.07,.96,07);
+    font-size: 45px;
+  
+   
+    
+}
+
+header h1:hover {
+    background-color: black; 
+    color : #FFFFFF
+}
+
+h1{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+
+}
+
+section{
+    height: 750px;
+    background-color: #AAAAAA;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+
+}
+
+article{
+    display: 
+    flex-direction: row;
+    width: 300px;
+    margin: 20px;
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    height: 300px;
+    text-align: center;
+    color: #000000;
+}
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+body{
+   
+}
