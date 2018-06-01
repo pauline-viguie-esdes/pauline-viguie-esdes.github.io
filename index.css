@@ -67,10 +67,50 @@ section{
     align-items: center;
     justify-content: center;
     min-height: 50px;
+}
+
+/** ARTICLE INTRO **/
+
+
+
+#intro article {
+    width: 75%;
+    padding: 50px;
+    background: no-repeat;
+    color: white;
+    text-align: justify;
+    
+    
+}
+
+#intro .row{
+    display: flex;
+    flex-direction: row;
 
 }
 
-article{
+#intro .row .aboutme{
+    width: 50%;
+    margin-right: 15px;
+
+}
+
+#intro .row .hobbies{
+    width: 50%;
+    margin-left: 15px;
+
+}
+
+#intro a{
+    width:25%;
+    text-align: none;
+    
+}
+
+
+
+
+#main-page article{
     display: flex;
     border-radius: 50%;
     flex-direction: column;
