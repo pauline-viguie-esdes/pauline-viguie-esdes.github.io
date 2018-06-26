@@ -197,12 +197,21 @@ body{
 
     }
     article{
-        width: 80%;
+        width: 100%;
     }
 }
 
 /* TABLET */
-@media only screen and (min-width: 600px) and (max-width) 
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    section{ 
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+    article{
+        width: 100%;
+    }
+}
 
 
 /** ANIMATIONS **/
