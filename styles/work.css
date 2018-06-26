@@ -1,4 +1,4 @@
-.etudes{
+.pro{
 	min-height: 80vh;
 	width: 100%;
 	margin-bottom: 2px;
@@ -7,7 +7,7 @@
 	justify-content: center;
 	align-items: center;
 }
-.ecole{
+.exp{
 	height: 100%;
 	width: 100%;
     display: flex;
@@ -26,7 +26,7 @@
 
 .title h1{
     font-size: 100px;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     font-weight: 200;
     display: flex;
     justify-content: center;
@@ -58,18 +58,18 @@
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0px 50px 0px 50px;
 }
-.ecole img{
+.exp img{
     max-height: 300px;
 }
 
-#esdes{
+#seb{
 	background-color: #CCCCCC;
 }
-#bsb{
+#efi{
     background-color: #939393;
    
 }
-#lhs{
+#esdesbs{
 	background-color: #CCCCCC;
 }
 .text-article h2{
@@ -78,7 +78,7 @@
 	
 }
 
-.bsb h2{
+.efi h2{
 	font-size: 23px;
     font-weight: 200;
 	color:  white;

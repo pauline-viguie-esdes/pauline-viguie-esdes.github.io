@@ -94,19 +94,19 @@ section{
   
 }
 
-#intro .row{
+#description{
     display: flex;
     flex-direction: row;
 
 }
 
-#intro .row .aboutme{
+#description .aboutme{
     width: 50%;
     margin-right: 25px;
 
 }
 
-#intro .row .hobbies{
+#description .hobbies{
     width: 50%;
     margin-left: 25px;
 
@@ -130,6 +130,8 @@ section{
     margin-left: 215px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+
 
 #main-page article{
     display: flex;
@@ -198,7 +200,18 @@ body{
     }
     article{
         width: 100%;
+       
+    
     }
+
+    header #menu{
+        flex-wrap:wrap;
+    }
+
+    #description{
+        flex-direction:column;
+    }
+
 }
 
 /* TABLET */
