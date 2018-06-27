@@ -19,6 +19,10 @@ a{
   background-color: #939393;
 }
 
+#section {
+  background-color: pink;
+}
+
 .title h1{
   font-size: 100px;
   letter-spacing: 5px;

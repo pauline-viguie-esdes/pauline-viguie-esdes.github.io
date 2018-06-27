@@ -83,6 +83,10 @@ section{
     
 }
 
+#main-page{
+    background-color: #939393;
+}
+
 .pv{
     width: 25%;
     height: 25%;
@@ -147,10 +151,20 @@ section{
     text-align:center;
     color: #000000;
     animation: enter 2s ease-in-out;
+
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#main-page article:hover{
+    -webkit-transform: scale(1.6);
+	transform: scale(1.6);
 }
 
 #article-1{
-    background-image: url("img/profile3.jpg");
+    background-image: url("img/pv.png");
     background-size: cover;
 }
 
@@ -165,12 +179,12 @@ section{
 }
 
 #article-4{
-    background-image: url("img/pens.jpg");
+    background-image: url("img/gallery.jpg");
     background-size: cover;
 }
 
 #article-5{
-    background-image: url("img/watercolour.jpg");
+    background-image: url("img/travel.png");
     background-size: cover;
 }
 
@@ -188,6 +202,12 @@ body{
    
 }
 
+b{
+    font-weight: bolder;
+}
+
+
+
 
 
 /** RESPONSIVE **/
@@ -204,9 +224,7 @@ body{
     
     }
 
-    header #menu{
-        flex-wrap:wrap;
-    }
+    
 
     #description{
         flex-direction:column;
