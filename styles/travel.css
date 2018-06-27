@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
 .etudes{
 	min-height: 80vh;
 	width: 100%;
@@ -25,7 +28,7 @@
 
 .title h1{
     font-size: 100px;
-    letter-spacing: 15px;
+    letter-spacing: 5px;
     font-weight: 200;
     display: flex;
     justify-content: center;
@@ -52,7 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     flex: 1;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0px 50px 0px 50px;
@@ -83,13 +86,19 @@
 	color:  white;
 }
 .text-article h3{
-	font-size: 16px;
+	font-size: 14px;
     font-weight: 200;
 
 }
-.p{
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 17px;
+}
+p{
 	
-    font-size: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    font-family: 'Barlow Condensed', sans-serif;
+    
     
 }
