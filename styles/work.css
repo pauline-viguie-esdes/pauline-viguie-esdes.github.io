@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 .pro{
 	min-height: 80vh;
 	width: 100%;
@@ -13,6 +16,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
 }
 
 .title{
@@ -59,7 +66,7 @@
     margin: 0px 50px 0px 50px;
 }
 .exp img{
-    max-height: 300px;
+    max-height: 400px;
 }
 
 #seb{
@@ -71,6 +78,10 @@
 }
 #esdesbs{
 	background-color: #CCCCCC;
+}
+
+#valcom{
+    background-color: #939393;
 }
 .text-article h2{
 	font-size: 23px;

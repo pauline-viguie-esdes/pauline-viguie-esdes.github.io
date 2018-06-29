@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 .etudes{
 	min-height: 80vh;
 	width: 100%;
@@ -88,9 +91,14 @@
     font-weight: 200;
 
 }
-.p{
+.text-article p{
 	
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Roboto Condensed', sans-serif;
     
+    
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
 }

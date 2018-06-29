@@ -1,52 +1,115 @@
-* {
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-body {
-    margin: 0;
-    font-family: Arial;
+.etudes{
+	min-height: 600px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
-.header {
-    text-align: center;
-    padding: 32px;
-}
-
-.row {
-    display: -ms-flexbox; /* IE10 */
+.ecole{
+	height: 800px;
+	width: 100%;
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-/* Create four equal columns that sits next to each other */
-.carrousel {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+
+
+
+.title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color: #939393;
 }
 
-.carrousel img {
-    margin-top: 8px;
-    vertical-align: middle;
+.title h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    animation: enter 2s ease-in-out 1 alternate;
+	
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .carrousel {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
+@keyframes enter {
+    from {
+        transform: translateX(-300px); 
+        opacity: 0;       
+}
+    to {
+        transform: translateX(0px);
+        opacity: 1;
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .carrousel {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
+.text-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: j;
+    flex: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 50px 0px 50px;
+    height: 600px;
+    
+}
+.bsb img{
+    max-height: 400px;
+    margin-top: 200px;
+}
+
+#esdes{
+	background-color: #CCCCCC;
+}
+#bsb{
+    background-color: #939393;
+   
+}
+#lhs{
+    background-color: #CCCCCC;
+}
+
+.text-article h2{
+	font-size: 23px;
+    font-weight: 200;
+	
+}
+
+.bsb h2{
+	font-size: 23px;
+    font-weight: 200;
+	color:  white;
+}
+.text-article h3{
+	font-size: 14px;
+    font-weight: 200;
+
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 17px;
+}
+p{
+	
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    
+}
+
+#bsb img{
+    margin: 20px 20px 0px: 20px;
 }
